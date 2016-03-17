@@ -5,3 +5,19 @@
     width: 200px;
     
 }
+.placeholder {
+    height: 100px;
+}
+
+.mainpage {
+    background-image: url('../images/Aurora-Ocean2.jpg');
+    background-repeat: repeat-y;
+    background-size: 100%;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+html {
+    height: 100%;
+}
