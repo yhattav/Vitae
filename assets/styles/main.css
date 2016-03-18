@@ -35,35 +35,49 @@ html {
     position: relative;
 }   
 .lyrics{
-    perspective: 5000px;
+    perspective: 7000px;
+    perspective-origin: 50% 50%;
     top: 30%;  
     left: 10%;
+     position: absolute;
+     width: 20%;
     
 }    
 
 
 .lyricscontainer {
   
-  position: absolute;
+ 
   font-style: italic;
+  background-color: red;
   border-color: red;
   border-width: 10px;
-  font-size: 20pt;
+  font-size: 1.5em;
   transform: rotateY(20deg);
   transform-origin: left;
   max-height: 94.5%;
-  width: 20%;
+  
 }
 
-.lyr1 {
+.sing, .lyr {
    
     position: relative;
+    text-align: right;
+    width: 100%;
 }
-.lyr2 {
-   
-    position: relative;
+
+.single {
+    perspective: 5000px;
+    top: 40%;  
+    left: 55%;
+    position: absolute;
+    width: 30%;
 }
-.lyr3 {
-    
-    position: relative;
+.singlecontainer {
+  position: absolute;
+  font-style: oblique;
+  color: red;
+  border-width: 10px;
+  font-size: 1.5em;
+  
 }
